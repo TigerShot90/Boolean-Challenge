@@ -1,0 +1,86 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+/* Primo livello - Contenitore trasparente */
+
+.container {
+    width: 1500px;
+    height: 900px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;    
+}
+
+/*Secondo Livello - Tutti gli elementi*/
+
+header img {
+    display: block;
+    width: 250px;
+    margin: auto;
+    padding-top: 50px;
+}
+
+header h1 {
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+
+nav {
+    background-color: rgb(0, 255, 0);
+    margin: 50px;
+    padding: 10px;
+    text-align: center;
+}
+
+.user {
+    margin-left: 50px;
+    color: white;
+    padding-bottom: 5px;
+}
+
+.user .name {
+    display: inline;
+    font-size: x-large;
+}
+
+.user .route {
+    font-size: large;
+    margin-top: 2px;
+}
+
+.user .status {
+    font-size: medium;
+    margin-top: 2px;
+}
+
+/* Stato Carica */
+
+#usercharge1 {
+    height: 25px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 5px;
+    color: transparent;
+    margin-top: 5px;
+}
+
+#usercharge2 {
+    height: 25px;
+    width: 450px;
+    background-color: green;
+    border-radius: 5px;
+    color: transparent;
+    margin-top: 5px;
+}
+
+#usercharge3 {
+    height: 25px;
+    width: 100px;
+    background-color: red;
+    border-radius: 5px;
+    color: transparent;
+    margin-top: 5px;
+}
